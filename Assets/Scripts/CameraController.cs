@@ -17,6 +17,7 @@ public class CameraController : MonoBehaviour
         
     }
 
+    // LateUpdate runs after all scripts Update() runs, effective for camera controlling
     private void LateUpdate()
     {
         transform.position = _offset + focusObject.transform.position;
