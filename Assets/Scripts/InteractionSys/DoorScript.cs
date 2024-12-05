@@ -1,18 +1,21 @@
 using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DoorScript : MonoBehaviour
 {
-    
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public string sceneName;
 
-    // Update is called once per frame
-    void Update()
+
+  
+    public void LoadA(string scenename)
     {
-        
+        Debug.Log("sceneName to load: " + scenename);
+        SceneManager.LoadScene(scenename);
     }
+private void OnTriggerEnter (Collider other)
+{
+    LoadA(sceneName);
+}
+
 }
