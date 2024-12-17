@@ -2913,6 +2913,14 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2799375984874017018, guid: 7b3cd151df8634f6685c93ecdbc47b4b, type: 3}
   m_PrefabInstance: {fileID: 7579562614176219262}
   m_PrefabAsset: {fileID: 0}
+--- !u!81 &1113442102
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113442101}
+  m_Enabled: 1
 --- !u!1 &1120984201
 GameObject:
   m_ObjectHideFlags: 0
@@ -10816,7 +10824,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2799375984874017018, guid: 7b3cd151df8634f6685c93ecdbc47b4b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1113442102}
   m_SourcePrefab: {fileID: 100100000, guid: 7b3cd151df8634f6685c93ecdbc47b4b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
