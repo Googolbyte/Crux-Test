@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Audio;
 
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMovement : MonoBehaviour
@@ -25,7 +26,16 @@ public class PlayerMovement : MonoBehaviour
         if (forward != 0)
         {
             _controller.Move(transform.forward * forward * moveSpeed * Time.deltaTime);
+            AudioManager.Instance.PlayRandomSoundFXClipWalking(AudioManager.Instance.playerWalk_SFX, transform, 1f);
         }
         
+    }
+
+    void OnTriggerEnter(Collider collider)
+    {
+        if(gameObject.CompareTag("Environment"))
+        {
+            AudioManager.Instance.PlaySoundFXClip(AudioManager.Instance.wallBump_SFX,transform,1f);
+        }
     }
 }
