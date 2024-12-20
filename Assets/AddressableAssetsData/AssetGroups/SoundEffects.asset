@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SoundEffects
+  m_EditorClassIdentifier: 
+  m_GroupName: SoundEffects
+  m_GUID: 8e778971d6ad44b9694de78f91932ad3
+  m_SerializeEntries:
+  - m_GUID: 1dbc42ed9caab4aa99973d868f3e08eb
+    m_Address: Assets/Sounds/Robot Sfx-3.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d4134a600260484888cb6f9aaa3f218
+    m_Address: Assets/Sounds/Slime Movement-4.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46affbe3b515b4f42b641151dff73162
+    m_Address: Assets/Sounds/Pushing Object Sfx-1.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49768d16e821a48b9a0f72c5e5bda8a3
+    m_Address: Assets/Sounds/Slime Movement-1.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 702d20c42096c47f0bef06cde215a5d5
+    m_Address: Assets/Sounds/Slime Movement-2.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7576dba9d05a8470bb6627addb9e2664
+    m_Address: Assets/Sounds/Player Damage Sfx-2.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81098efccb3384f1bbdb1c412a2ee60b
+    m_Address: Assets/Sounds/Slime Movement-5.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d322ba62e7cb41eebb4b8dd5a627771
+    m_Address: Assets/Sounds/Object Up In Flames Sfx-2.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98c74839958354433ad034477e4411fd
+    m_Address: Assets/Sounds/Click On Item Sfx-2.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9dcf3b8a95f5545cd964876e21cfeed5
+    m_Address: Assets/Sounds/Open Inventory Sfx.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aef0d638482f14c109033e8adbaff73c
+    m_Address: Assets/Sounds/Slime Movement-3.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df527146b96104b4bad1a09174ff3268
+    m_Address: Assets/Sounds/Dripping Sfx-4.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 26f293b069a804a98b7e934d1e423562, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 067bf429de76c46cfa27b0094e5a2b23, type: 2}
